@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOXA</title>
+    <title>Moxa</title>
 </head>
 <body style="padding: 2rem;">
     <div class="container">
     <h1>MOXA: A Deep Learning Based Unmanned Approach For Real-Time Monitoring of People Wearing Medical Masks
     </h1>
     <hr>
-  <a href="https://drive.google.com/file/d/1luSKDAV1hoZeRWGWmjdlVyJzj8h_AsBJ/view?usp=sharing" target="_blank"><h3>Dataset:Moxa3K</h3></a></br>
+  <a href="https://drive.google.com/file/d/1luSKDAV1hoZeRWGWmjdlVyJzj8h_AsBJ/view?usp=sharing" target="_blank"><h3>Dataset:Moxa3K</h3></a>
+  <p>Dataset directories description</br>
+    --Moxa3K-----images/<font color="green">{contains all the images}</font></br>
+    &emsp;&emsp;|</br>
+    &emsp;&emsp;|-------annotation---Pascal VOC/<font color="green">{contains labels in PascalVoc format}</font></br>
+    &emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|</br>
+    &emsp;&emsp;|______________|-----Yolo/<font color="green">{contains labels in yolo format}</font></br>
+    &emsp;&emsp;|</br>
+    &emsp;&emsp;|--------tain.txt/<font color="green">{contains all the paths to the training set}</font></br>
+    &emsp;&emsp;|</br>
+    &emsp;&emsp;|--------test.txt/<font color="green">{contains all the paths to the testing set}</font></br>
+</p>
+</br>
   <a href="">YOLOv3 on Darknet</a>
   <ul>
       <li><a href="https://github.com/AlexeyAB/darknet" target="_blank">Configure Darknet</a></li>
@@ -27,12 +39,13 @@
       <li><a href="https://drive.google.com/file/d/12T0MOaubRI8n3PAdryZP-OYCqI5IjSGO/view?usp=sharing" target="_blank">Obj.name</a></li>
       <li><a href="https://drive.google.com/file/d/1wI__1fUT0RUX60OECJYYdpvrVUasg9O_/view?usp=sharing" target="_blank">Obj.data</a></li>
   </ul>
-  <a href="">SSD on Mobilenet (tensorflow object detection API)</object></a>
+  <a href="">SSD on Mobilenet (tensorflow object detection API)></object></a>
   <ul>
       <li><a href="https://github.com/tensorflow/models/tree/master/research/object_detection" target="_blank">Configure SSD on tensorflow API</a></li>
-      <li><a>config file</a></li>
-      <li><a>frozen graph</a></li>
-      <li>checkpoints</li>
+      <li><a href="https://drive.google.com/file/d/10JCxgOTrJhZ80YQSeCxXA2RrTOh5PH8A/view?usp=sharing" target="_blank">config file</a></li>
+      <li><a href="https://drive.google.com/file/d/1XfYM722oOAHPldzFJ21HXIrR71R-D99X/view?usp=sharing" target="_blank">frozen graph</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1wzARu6CsaaesamoAfNgWiA0NC2VpRvl1?usp=sharing" target="_blank">checkpoints</a></li>
+      <li><a href="https://drive.google.com/file/d/1WhfoRgQajG_FC8NZza3IlQSOY1Y3Eyuy/view?usp=sharing" target="_blank">labelmap.pbtxt</a></li>
   </ul>
   <a href="">Faster RCNN on inception v2 (tensorflow object detection API)</a>
   <ul>
@@ -40,6 +53,7 @@
       <li><a href="https://drive.google.com/file/d/10cVBQx_jTK738kc176ypETSDkYFGJTre/view?usp=sharing" target="_blank">config file</a></li>
       <li><a href="https://drive.google.com/drive/folders/1goJ7nMBbV1H2UezZrj95bxcpwCRATcYQ?usp=sharing" target="blank">frozen graph</a></li>
       <li><a href="https://drive.google.com/drive/folders/1CWuUPs9gj_-VGS9CdCX_sxuqko-oTdrB?usp=sharing" target="_blank">checkpoints</a></li>
+      <li><a href="https://drive.google.com/file/d/1jmG-hq0u_7XTKuh-DUozcjD9W7SofuCh/view?usp=sharing" target="_blank">labelmap.pbtxt</a></li>
   </ul>
   </div>
 </body>
